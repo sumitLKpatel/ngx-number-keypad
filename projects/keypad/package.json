@@ -1,0 +1,17 @@
+{
+  "name": "ngx-number-keypad",
+  "version": "0.0.3",
+  "peerDependencies": {
+    "@angular/common": "^9.1.9",
+    "@angular/core": "^9.1.9"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
+  },
+  "author": "Sumit Patel",
+  "repository": {
+    "type": "Git",
+    "url": "https://github.com/sumitLKpatel/ngx-number-keypad.git"
+  },
+  "license": "MIT"
+}
