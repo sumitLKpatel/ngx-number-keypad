@@ -1,4 +1,4 @@
-# Angular Number Keypad
+# ngx-number-keypad
 
 This is a two in one features keypad, you can use this as calculator also by just enabling that feature. 
 
@@ -29,7 +29,7 @@ import { KeypadModule } from 'ngx-numaric-keypad';
 export class AppModule { }
 
 ```
-then put below component in your view
+then put below component in your view, and if you want to use calculator then make that **calc = true** otherwise you can remove that param or make it **calc = false**.
 
 ```
 
@@ -50,12 +50,6 @@ Now create function in your component.ts file
 ```
 ![Keypad Image](https://github.com/sumitLKpatel/ngx-number-keypad/blob/master/projects/keypad/src/Screenshot_3.png?raw=true)
 
-
-## Variable Usage
-
-|    params    |   value  |             default value            |   description    |
-|:------------:|:--------:|:------------------------------------:|:----------------:|
-|    calc       |  boolean |               false                  | Enable Calculator       |
 
 
 
