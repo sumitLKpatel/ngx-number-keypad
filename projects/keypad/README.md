@@ -17,7 +17,7 @@ npm i ngx-number-keypad --save
 
 ```
 
-![Numaric Keypad](src\Screenshot_3.png "Numaric Keypad")
+![Keypad Image](https://github.com/sumitLKpatel/ngx-number-keypad/blob/master/projects/keypad/src/Screenshot_3.png?raw=true)
 
 By adding this calc param, you will have calculator functionality...
 
