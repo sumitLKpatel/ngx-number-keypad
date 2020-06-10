@@ -7,15 +7,10 @@ This is a test project to get install keypad in your Angular 8+ projects.
 npm i ngx-number-keypad --save
 
 ## Techniques
-
-  <ngx-numaric-keypad
-   [sum]="true"
-   [sub]="true"
-   [multiplication]="true"
-   [division]="true"
-   [clean]="true"
-  >
-  </ngx-numaric-keypad>
+```
+  <ngx-numaric-keypad [calc]="true"></ngx-numaric-keypad>
+  
+```
 
 by removing those all params you can use this as number keypad
 
@@ -23,11 +18,7 @@ by removing those all params you can use this as number keypad
 
 |    params    |   value  |             default value            |   description    |
 |:------------:|:--------:|:------------------------------------:|:----------------:|
-|    sum       |  boolean |               false                  | Enable Sum       |
-|    sub       |  boolean |               false                  | Enable Subscription       |
-|    multiplication       |  boolean |               false                  | Enable multiplication       |
-|    division       |  boolean |               false                  | Enable division       |
-|    clean       |  boolean |               false                  | Enable clear button       |
+|    calc       |  boolean |               false                  | Enable Calculator       |
 
 
 

@@ -1,9 +1,6 @@
 
-  <number-keypad
-   [sum]="true"
-   [sub]="true"
-   [multiplication]="true"
-   [division]="true"
-   [clean]="true"
+  <ngx-numaric-keypad
+   [calc]="true"
+   (getVal)="getNumberValue($event)"
   >
-  </number-keypad>
+  </ngx-numaric-keypad>

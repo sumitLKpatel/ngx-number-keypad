@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
 
   }
 
-  getNumberData(numberD: any) {
+  getNumberValue(numberD: any) {
     console.log(numberD, "number")
 
   }
