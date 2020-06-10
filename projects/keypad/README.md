@@ -1,6 +1,6 @@
 # Angular Number Keypad
 
-This is a test project to get install keypad in your Angular 8+ projects. 
+This is a two in one features keypad, you can use this as calculator also by just enabling that feature. 
 
 ## Get started
 
@@ -8,11 +8,18 @@ npm i ngx-number-keypad --save
 
 ## Techniques
 ```
-  <ngx-numaric-keypad [calc]="true"></ngx-numaric-keypad>
-  
+
+  <ngx-numaric-keypad 
+    [calc]="true"
+    (getVal)="yourFunctionName($event)"
+  >
+  </ngx-numaric-keypad>
+
 ```
 
-by removing those all params you can use this as number keypad
+![Numaric Keypad](src\Screenshot_3.png "Numaric Keypad")
+
+By adding this calc param, you will have calculator functionality...
 
 ## Variable Usage
 

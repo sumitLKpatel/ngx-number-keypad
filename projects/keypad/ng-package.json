@@ -3,5 +3,8 @@
   "dest": "../../dist/keypad",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "whitelistedNonPeerDependencies": [
+    "@fortawesome/fontawesome-free"
+  ]
 }
