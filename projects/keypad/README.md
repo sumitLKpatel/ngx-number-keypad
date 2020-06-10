@@ -44,7 +44,7 @@ then put below component in your view
 Now create function in your component.ts file
 ```
   yourFunctionName(numberOutput: number) {
-    console.log(test) // you will have your keypad output here
+    console.log(numberOutput) // you will have your keypad output here
   }
 
 ```
