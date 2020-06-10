@@ -1,6 +1,6 @@
 {
-  "name": "ngx-number-keypad",
-  "version": "0.0.3",
+  "name": "ngx-numaric-keypad",
+  "version": "0.0.4",
   "peerDependencies": {
     "@angular/common": "^9.1.9",
     "@angular/core": "^9.1.9"
@@ -13,5 +13,11 @@
     "type": "Git",
     "url": "https://github.com/sumitLKpatel/ngx-number-keypad.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "Angular 9",
+    "Keypad",
+    "Angular",
+    "Calculator"
+  ]
 }

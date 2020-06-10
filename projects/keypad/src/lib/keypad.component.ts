@@ -2,7 +2,7 @@ import { Component, OnInit, Input, Output } from '@angular/core';
 import { EventEmitter } from 'protractor';
 
 @Component({
-  selector: 'number-keypad',
+  selector: 'ngx-numaric-keypad',
   templateUrl: './keypad.component.html',
   styleUrls: ['./keypad.component.css']
 })

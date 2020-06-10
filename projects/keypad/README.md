@@ -8,14 +8,14 @@ npm i ngx-number-keypad --save
 
 ## Techniques
 
-  <number-keypad
+  <ngx-numaric-keypad
    [sum]="true"
    [sub]="true"
    [multiplication]="true"
    [division]="true"
    [clean]="true"
   >
-  </number-keypad>
+  </ngx-numaric-keypad>
 
 by removing those all params you can use this as number keypad
 
