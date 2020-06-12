@@ -48,7 +48,7 @@ Now create function in your component.ts file
   }
 
 ```
-![Keypad Image](https://github.com/sumitLKpatel/ngx-number-keypad/blob/master/projects/keypad/src/Screenshot_3.png?raw=true)
+![Keypad Image](https://github.com/sumitLKpatel/ngx-number-keypad/blob/master/projects/keypad/src/uploads/Screenshot_3.png?raw=true)
 
 
 
