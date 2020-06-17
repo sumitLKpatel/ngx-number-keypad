@@ -1,13 +1,13 @@
 {
   "name": "ngx-numaric-keypad",
   "description": "This is a two in one features keypad, you can use this as calculator also by just enabling that feature.",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "peerDependencies": {
     "@angular/common": "^9.1.9",
     "@angular/core": "^9.1.9"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.13.0",
+    "material-design-icons": "^3.0.1",
     "tslib": "^1.10.0"
   },
   "author": "Sumit Patel",

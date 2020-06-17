@@ -23,8 +23,10 @@
             .
           </button>
           <button type="button" (click)="getNumber('0')" value="0">0</button>
-          <button type="button" (click)="backSpace()" class="decimal back-btn" value=".">
-            <i class="fas fa-backspace"></i> 
+          <button type="button" (click)="backSpace()" class="decimal back-btn">
+            <span class="material-icons">
+              backspace
+            </span>
           </button>
         </div>
         <div class="op-btn" *ngIf="calc">
